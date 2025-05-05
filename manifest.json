@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Yandex Mail Temizleyici",
+    "version": "1.0",
+    "description": "Yandex Mail'de bazı öğeleri otomatik olarak temizler.",
+    "permissions": ["scripting"],
+    "host_permissions": ["https://mail.yandex.com.tr/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://mail.yandex.com.tr/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
