@@ -28,5 +28,5 @@ window.addEventListener("load", () => {
     } catch (e) {
       console.error("2. element silinirken hata oluştu:", e);
     }
-  }, 1000);
+  }, 1500);
 });
