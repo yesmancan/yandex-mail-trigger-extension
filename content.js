@@ -28,5 +28,23 @@ window.addEventListener("load", () => {
     } catch (e) {
       console.error("2. element silinirken hata oluştu:", e);
     }
+
+
+try {
+      const rightElement = document.querySelector(
+        "[data-testid='page-layout_right-column_container'"
+      );
+      if (rightElement ) {
+        rightElement.remove();
+        console.log("3. element başarıyla silindi.");
+      } else {
+        console.warn("3. element bulunamadı veya eksik.");
+      }
+    } catch (e) {
+      console.error("3. element silinirken hata oluştu:", e);
+    }
+
+
+
   }, 1500);
 });
