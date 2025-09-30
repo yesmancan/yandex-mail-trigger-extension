@@ -45,6 +45,19 @@ try {
     }
 
 
+try {
+const topElement = document.querySelector('[data-testid="content-header_container"]')
+
+      if (topElement ) {
+        topElement.childNodes[1].remove();
+        console.log("4. element başarıyla silindi.");
+      } else {
+        console.warn("4. element bulunamadı veya eksik.");
+      }
+    } catch (e) {
+      console.error("4. element silinirken hata oluştu:", e);
+    }
+
 
   }, 1500);
 });
