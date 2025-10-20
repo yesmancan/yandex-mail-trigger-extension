@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Yandex Mail Temizleyici",
-    "version": "1.3",
+    "version": "1.4",
     "description": "Yandex Mail'de bazı öğeleri otomatik olarak temizler.",
     "icons": {
         "16": "icons/icon16.png",
