@@ -1,20 +1,27 @@
 {
-    "manifest_version": 3,
-    "name": "Yandex Mail Temizleyici",
-    "version": "1.4",
-    "description": "Yandex Mail'de bazı öğeleri otomatik olarak temizler.",
-    "icons": {
-        "16": "icons/icon16.png",
-        "48": "icons/icon48.png",
-        "128": "icons/icon128.png"
-    },
-    "permissions": ["scripting"],
-    "host_permissions": ["https://mail.yandex.com.tr/*"],
-    "content_scripts": [
-      {
-        "matches": ["https://mail.yandex.com.tr/*"],
-        "js": ["content.js"]
-      }
-    ]
-  }
-  
+  "manifest_version": 3,
+  "name": "Yandex Mail Temizleyici",
+  "version": "1.5",
+  "description": "Yandex Mail'de bazı öğeleri otomatik olarak temizler.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://mail.yandex.com.tr/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.yandex.com.tr/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

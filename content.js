@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
 
     try {
       const headerElement = document.querySelector(
-        '[data-testid="page-layout_right-column_container"]'
+        '[data-testid="page-layout_right-column_container_v1"]'
       );
       if (headerElement) {
         headerElement.remove();
