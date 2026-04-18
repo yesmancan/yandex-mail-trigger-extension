@@ -14,9 +14,7 @@ window.addEventListener("load", () => {
     }
 
     try {
-      const headerElement = document.querySelector(
-        '[data-testid="page-layout_right-column_container_v1"]'
-      );
+      const headerElement = document.querySelector('[data-testid="page-layout_right-column_loading-indicator"]');
       if (headerElement) {
         headerElement.remove();
         console.log("2. element başarıyla silindi.");
